@@ -1,5 +1,5 @@
 ## jc-cipher
-`jc-cipher` is a simple tool to encode and decode your file.
+`jc-cipher` is a simple tool to encode and decode your file with your own password.
 
 ## Installation
 ```
@@ -16,6 +16,7 @@ jc-cipher encode <path-to-file> <key>
 *Note*: `jc-cipher` don't save your key, so make sure you remember it or back it up some where for the decoding later.
 
 The output will be localed in the same directory with the `path-to-file` with suffix `.encoded`
+
 For example:
 - input: `~./binh.txt`
 - output: `~./binh.txt.encoded`
@@ -28,6 +29,7 @@ jc-cipher decode <path-to-encoded-file> <key>
 
 
 The output will be localed in the same directory with the `path-to-encoded-file` with suffix `.decoded`
+
 For example:
 - input: `~./binh.txt.encoded`
 - output: `~./binh.txt.encoded.decoded`
